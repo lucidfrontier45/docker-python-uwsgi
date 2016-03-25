@@ -1,4 +1,4 @@
-FROM python:3.4-slim
+FROM python:3.5-slim
 MAINTAINER Shiqiao Du <lucidfrontier.45@gmail.com>
 
 RUN set -ex \
