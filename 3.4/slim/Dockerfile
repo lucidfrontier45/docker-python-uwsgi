@@ -6,6 +6,7 @@ RUN set -ex \
 		gcc \
 		libbz2-dev \
 		libc6-dev \
+		libpcre3-dev \
 		libssl-dev \
 		make \
 		zlib1g-dev \
