@@ -8,6 +8,7 @@ RUN set -ex \
 	' \
 	&& apt-get update \
 	&& apt-get install -y --no-install-recommends $buildDeps \
-	&& apt-get install -y mime-support \
 	&& rm -rf /var/lib/apt/lists/* \
 	&& pip install --no-cache-dir uwsgi
+
+COPY mime.types /etc/mime.types

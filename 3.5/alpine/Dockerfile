@@ -23,3 +23,5 @@ RUN set -x \
     && apk add --virtual .uwsgi-rundeps $runDeps \
     && apk del .build-deps \
     && rm -rf /var/cache/apk/*
+
+COPY mime.types /etc/mime.types
