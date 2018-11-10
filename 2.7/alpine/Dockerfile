@@ -1,5 +1,5 @@
 FROM python:2.7-alpine
-MAINTAINER Shiqiao Du <lucidfrontier.45@gmail.com>
+LABEL maintainer="Shiqiao Du <lucidfrontier.45@gmail.com>"
 
 RUN set -x \
     && apk update \

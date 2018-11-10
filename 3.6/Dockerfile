@@ -1,5 +1,5 @@
 FROM python:3.6
-MAINTAINER Shiqiao Du <lucidfrontier.45@gmail.com>
+LABEL maintainer="Shiqiao Du <lucidfrontier.45@gmail.com>"
 
 RUN set -ex \
 	&& buildDeps=' \
